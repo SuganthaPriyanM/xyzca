@@ -1,0 +1,181 @@
+.grid-container{
+  padding:10px;
+  column-gap: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 660px;
+}
+form section{
+  background-color: gray;
+}
+  .col-lg-4{
+    background-color: lightgray;
+    padding: 10px;
+    }
+.grid-item{
+  border: 5px solid black;
+  text-align: center;
+  background-color:springgreen;
+}
+
+#flexc{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#flexc>div{
+  margin: 20px;
+  padding: 20px;
+  width: 290px;
+  background-color: darkgray;
+}
+body{
+  background-color: lightgray;
+}
+@media (max-width:600px){
+  #flexc{
+    display: flex;
+    flex-wrap:wrap;
+    background-color: inherit;
+  }
+  #flexc>div{
+    margin: 20px;
+    padding: 20px
+    width: 100%;
+
+
+  }
+}
+
+
+ol>li{
+  text-align: left;
+}
+@media print {
+  #flexc>div{
+    margin: 1px;
+    padding: 5px;
+    width: 100%;
+   }
+
+  #flexc{
+    width: auto;
+    display:flex;
+    flex-wrap: wrap;
+  }
+.screenonly{
+  display: none;
+}
+}
+
+form{
+  font-size: 20px;
+
+  text-align: center;
+}
+input{
+  margin: 10px;
+  width: auto;
+  background-color: lightgray;
+}
+[type=button]{
+  background-color: lavender;
+}
+button{
+
+  background-color: lightgray;
+  padding:5px;
+  text-align:center;
+}
+button:hover{
+  background-color: gray;
+}
+
+
+img:hover{
+  content: "XYZ";
+}
+table{
+
+  padding: 10px;
+  border:1.5px solid darkmagenta;
+  border-collapse: collapse;
+}
+th{
+  color: magenta;
+  padding:10px;
+  border:1.5px solid darkmagenta;
+}
+tr,td{
+  padding:10px;
+  border:1.5px solid darkmagenta;
+}
+h1{
+  text-align:center;
+  color: darkmagenta;
+  font-weight: 100px;
+  padding: 10px;
+  font-size:50px;
+}
+
+
+h3,a{
+  font-size: 30px;
+  text-align: center;
+  color:darkmagenta;
+  padding-left: 15px;
+}
+p{
+  font-size: 19px;
+  padding:10px;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+address::selection{
+
+  background-color: lightgray
+
+  }
+h2::selection{
+
+  background-color: lightgray
+
+  }
+  br::selection{
+
+    background-color: lightgray
+
+    }
+h3::selection{
+
+  background-color: darkgray
+
+  }
+u::selection{
+
+  background-color: darkgray
+
+  }
+img::selection{
+
+  background-color: darkgray
+
+  }
+a::selection{
+
+  background-color: darkgray
+
+  }
+  th::selection
+  {
+
+    background-color: darkgray
+
+    }
+  h1::selection{
+  background-color: darkgray;
+  }
+p::selection{
+  background-color: darkgray;
+}

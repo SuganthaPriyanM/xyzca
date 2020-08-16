@@ -1,0 +1,34 @@
+$color : aqua;
+.inp{
+  width: 200px;
+  border-radius: 10px;
+}
+.inpu{
+  @extend .inp;
+  height: 30px;
+}
+.tex{
+  @extend .inp;
+  height: 60px;
+}
+button{
+  height: 35px;
+  width:150px;
+  padding: 5px;
+
+}
+div{
+  form{
+    section{
+      padding: 5px;
+      margin: 5px;
+      margin-left: 530px;
+      margin-right: 530px;
+    border: 1px solid  grey;
+    border-radius: 25px;
+  }
+    }
+  }
+body{
+  background-color: $color;
+}
